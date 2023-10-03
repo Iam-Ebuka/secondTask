@@ -1,0 +1,73 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+button {
+    color: white;
+    padding: 12px 20px 12px 20px;
+    font-size: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+}
+.he button:hover {
+    padding: 15px 23px 15px 23px;
+}
+.ha button:hover {
+    padding: 15px 23px 15px 23px;
+}
+.nv button:hover {
+    padding: 15px 23px 15px 23px;
+}
+.but{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+video {
+    max-width: 100%;
+}
+.welcome {
+    display: block;
+}
+.teacher, .coding {
+    display: none;
+}
+.welcome {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    max-width: 330px;
+    max-height: 330px;
+}
+.coding {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    max-width: 250px;
+    max-height: 250px;
+}
+.dance {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    max-width: 250px;
+    max-height: 250px;
+}
+.teacher {
+    position: absolute;
+    
+    max-width: 250px;
+    max-height: 250px;
+}
+#stop {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
