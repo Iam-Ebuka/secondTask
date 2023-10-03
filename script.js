@@ -67,11 +67,12 @@ function showDance() {
     playAudio('nv'); // Play audio when showing danceDiv
 }
 
-// Function to stop all audio
+// Function to stop all audio and show the welcome div
 function stopAllAudio() {
     if (currentAudio) {
         currentAudio.pause();
     }
+    showWelcome(); // Show the "welcome" div
 }
 
 // Add click event listeners to the buttons for both audio and video functionality
@@ -87,7 +88,7 @@ document.querySelector('.nv button').addEventListener('click', function() {
     showDance(); // Show video
 });
 
-// Add click event listener to the "stop" button to stop all audio
+// Add click event listener to the "stop" button to stop all audio and show the welcome div
 document.getElementById('stop').addEventListener('click', function() {
     stopAllAudio();
 });
